@@ -1,0 +1,30 @@
+.root{
+    -fx-background-color: #B5B5B5;
+}
+.button{
+    -fx-background-color: #1B1238;
+    -fx-text-fill: #F5F5F5;
+}
+.label{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.text-field,.text-area{
+    -fx-border-color: #1B1238 ;
+}
+.combo-box{
+    -fx-background-color: #596CFA;
+    -fx-border-color: #5439FA ;
+}
+.table-view{
+
+}
+.cell:hover{
+    -fx-background-color: #1B7DFA;
+    -fx-text-fill: #FFF;
+}
+.tab-pane{
+    -fx-font-family: "Times New Roman";
+    //-fx-font-style: italic;
+    -fx-font-weight: lighter;
+}

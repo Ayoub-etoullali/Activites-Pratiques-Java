@@ -1,0 +1,2 @@
+je constate que les threads que j'ai lancer, ils sont exécuté simultanément entre eux, 
+cad chaque thread prend un partie d'exécution de son processus

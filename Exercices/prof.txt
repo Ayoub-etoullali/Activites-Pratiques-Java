@@ -1,0 +1,93 @@
+ /*
+            eponse[] reponses=new Reponse[3];
+        Question[] tableau=new Question[5];
+
+        for (int i=0; i<tableau.length;i++){
+
+            System.out.println("saisir un titre de question :");
+            String tsq=scanner.nextLine();
+            scanner.nextLine();
+            System.out.println("saisir un question :");
+            String qs=scanner.nextLine();
+            scanner.nextLine();
+            System.out.println("saisir un score :");
+            int sc=scanner.nextInt();
+            scanner.nextLine();
+
+            tableau[i]= new Question(tsq,qs,{},sc);
+
+            System.out.println("saisir un question :");
+            tableau[i].description=scanner.nextLine();
+            scanner.nextLine();
+
+            System.out.println("saisir un score :");
+            tableau[i].score=scanner.nextInt();
+            scanner.nextLine();
+        }
+
+        int k=1;
+        for (int i=0; i<tableau.length;i++){
+
+            System.out.println("titre de question: " + tableau[i].titre);
+            System.out.println("Q" + k +": " + tableau[i].description);
+            System.out.println("score: " + tableau[i].score);
+
+            k++;
+
+        }
+
+        Reponse[] tableau_=new Reponse[4];
+        k=1;
+        for (int i=0; i<tableau.length;i++){
+
+            System.out.println("|-- Réponse --|: ");
+            String rp=scanner.nextLine();
+            scanner.nextLine();
+
+            if (rp==tab_correction[i]){
+                tableau_[i].correcte=true;
+            }
+            else   tableau_[i].correcte=false;
+            k++;
+             */
+
+/*
+        Reponse []reponsesQ1=new Reponse[3];
+        reponsesQ1[0]=new Reponse("a- Rabat",true);
+        reponsesQ1[1]=new Reponse("b- Casablanca",false);
+        reponsesQ1[2]=new Reponse("c- Agadir",false);
+        Question q1=new Question("Qu'elle est la capitale du Maroc ?","",reponsesQ1,1);
+        System.out.println(q1);
+
+        Reponse []reponsesQ2=new Reponse[3];
+        reponsesQ2[0]=new Reponse("a- Rabat",true);
+        reponsesQ2[1]=new Reponse("b- Casablanca",false);
+        reponsesQ2[2]=new Reponse("c- Agadir",false);
+        Question q2=new Question("Qu'elle est la capitale du Maroc ?","",reponsesQ2,1);
+        System.out.println(q2);
+
+        Reponse []reponsesQ3=new Reponse[3];
+        reponsesQ3[0]=new Reponse("a- Rabat",true);
+        reponsesQ3[1]=new Reponse("b- Casablanca",false);
+        reponsesQ3[2]=new Reponse("c- Agadir",false);
+        Question q3=new Question("Qu'elle est la capitale du Maroc ?","",reponsesQ3,1);
+        System.out.println(q3);
+
+        Reponse []reponsesQ4=new Reponse[3];
+        reponsesQ4[0]=new Reponse("a- Rabat",true);
+        reponsesQ4[1]=new Reponse("b- Casablanca",false);
+        reponsesQ4[2]=new Reponse("c- Agadir",false);
+        Question q4=new Question("Qu'elle est la capitale du Maroc ?","",reponsesQ4,1);
+        System.out.println(q4);
+
+        Reponse []reponsesQ5=new Reponse[3];
+        reponsesQ5[0]=new Reponse("a- Rabat",true);
+        reponsesQ5[1]=new Reponse("b- Casablanca",false);
+        reponsesQ5[2]=new Reponse("c- Agadir",false);
+        Question q5=new Question("Qu'elle est la capitale du Maroc ?","",reponsesQ5,1);
+        System.out.println(q5);
+
+        Question[] tab_qst={q1,q2,q3,q4,q5};
+        Questionnaire Q=new Questionnaire("QCM : Mathématique",tab_qst);
+
+ */
